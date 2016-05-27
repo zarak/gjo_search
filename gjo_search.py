@@ -28,6 +28,7 @@ def getPrediction(item):
     return preDict
 
 
+# Prompt user to continue searching
 while True:
     keyword = input("Enter keyword: ")
     SEARCH_URL = 'https://www.gjopen.com/search/query?term=' + keyword
